@@ -49,27 +49,24 @@ nav ul li a {
 /* SECTION MAIN IMAGE */
 
 #section-main-image {
-  height: 50vh;
+  height: 90vh;
   background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #section-main-image h1 {
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 #section-main-image h2 {
   color: rgba(255, 255, 255);
   text-shadow: 2px 2px 5px #000;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+  font-weight: normal;
 }
 
 /* SECTION COFFEE */
@@ -82,25 +79,35 @@ nav ul li a {
   padding-bottom: 40px;
 }
 
+#section-coffee h2 {
+  margin: 40px, 0px, 20px;
+}
+
+#section-coffee p {
+  text-align: justify;
+}
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .product {
   padding: 0 15px;
+  border-radius: 5px;
 }
 
 .product img {
-  width: 200px;
+  width: 100%;
 }
 
 /* FOOTER CONTACT */
 
 #footer-contact {
-  background-color: #39582c;
-  color: #fff;
+  background-color: #58462c;
+  color: #eeeeee;
   display: flex;
+  justify-content: center;
 }
 
 #footer-contact .contact-data {
