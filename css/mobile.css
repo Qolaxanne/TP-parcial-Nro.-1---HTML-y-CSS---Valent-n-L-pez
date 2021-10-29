@@ -50,3 +50,7 @@
     margin-right: 5px;
     text-align: right;
   }
+  
+  .contact-form form .form-control {
+    padding-right: 10px;
+  }
