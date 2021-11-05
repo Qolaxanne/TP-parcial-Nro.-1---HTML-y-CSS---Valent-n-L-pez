@@ -1,11 +1,10 @@
   #section-main-image h1 {
-    font-size: 37px;
+    font-size: 39px;
     padding: 1px;
   }
   
   #section-main-image h2 {
-    justify-content: center;
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .product-grid {
@@ -24,7 +23,6 @@
   }
   
   #section-coffee p {
-    display: flex;
     text-align: center;
   }
 
@@ -37,19 +35,17 @@
     text-align: center;
   }
 
-  #footer-contact .contact-data {
-    display: flex;
-    justify-content: left;
-    text-align: left;
-    flex-direction: row;
-  }
-
   .contact-form form {
-    margin-right: 10px
+    margin-right: 10px;
+    text-align: left;
   }
   
   .contact-form form .form-control {
     padding-right: 10px;
+  }
+
+  .contact-form form .form-control label {
+    margin-right: 0px;
   }
 
   .contact-form input {
@@ -57,5 +53,5 @@
   }
 
   .container {
-    width: 80%;
+    width: 95%;
   }
